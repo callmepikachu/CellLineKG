@@ -1,0 +1,21 @@
+{
+  "name": "CellLineKG",
+  "version": "1.0.0",
+  "description": "Cell line-specific heterogeneous graph for drug-disease relationship prediction",
+  "main": "train.py",
+  "scripts": {
+    "train": "python train.py",
+    "test": "python test.py"
+  },
+  "dependencies": {
+    "dgl": "^0.9.0",
+    "torch": "^1.12.0",
+    "scanpy": "^1.9.0",
+    "pandas": "^1.4.0",
+    "numpy": "^1.21.0",
+    "scikit-learn": "^1.1.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
